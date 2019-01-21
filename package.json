@@ -1,0 +1,24 @@
+{
+  "name": "beebusiness-tech-interview",
+  "version": "1.0.0",
+  "description": "How to make the display :  https://en.wikipedia.org/wiki/Seven-segment_display",
+  "main": "display.js",
+  "scripts": {
+    "start": "node LCD.js",
+    "test": "mocha test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaboliotTheGrey/Beebusiness-Tech-Interview.git"
+  },
+  "author": "RaboliotTheGrey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RaboliotTheGrey/Beebusiness-Tech-Interview/issues"
+  },
+  "homepage": "https://github.com/RaboliotTheGrey/Beebusiness-Tech-Interview#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
