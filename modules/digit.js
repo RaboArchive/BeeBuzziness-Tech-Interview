@@ -6,7 +6,6 @@ class Digit {
     return this._digit
   }
   isSegmentOn (letter) {
-    //console.log(this._digit, letter, ((this._digit >> letter) & 1))
     return ((this._digit >> letter) & 1)
   }
 }
