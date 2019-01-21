@@ -24,12 +24,16 @@ Exemple: `910`
 
 ## Note :
 
-Je n'ai pas implémenté de test pour les fonctions de display. Il faudrait soit écouter le stdout soit override la fonction de log pour qu'elle fasse autre chose.
+Je n'ai pas implémenté de test pour les fonctions de display. Il faudrait soit écouter le stdout soit écrire dans un nouveau stream soit override la fonction de log pour qu'elle fasse autre chose.
 
 Il y a peu ou pas d'asynchrinone car l'exercice ne s'y prêtait pas forcément.
 
 ## Pour le lancer
+`./LCD.js $VOTRENOMBRE` (Il y a un shebang au début, il est possible de l'executer comme un script)
 
+`npm start $VOTRENOMBRE` pour lancer le script via npm
+
+`npm test` pour lancer les test
 
 
 ## Documents utilisés : 
